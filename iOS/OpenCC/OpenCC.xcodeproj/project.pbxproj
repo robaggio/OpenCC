@@ -13,8 +13,6 @@
 		AC2068711C11F99400D41200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC20686F1C11F99400D41200 /* Main.storyboard */; };
 		AC2068731C11F99400D41200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2068721C11F99400D41200 /* Assets.xcassets */; };
 		AC2068761C11F99400D41200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2068741C11F99400D41200 /* LaunchScreen.storyboard */; };
-		AC2068811C11F99400D41200 /* OpenCCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2068801C11F99400D41200 /* OpenCCTests.m */; };
-		AC20688C1C11F99400D41200 /* OpenCCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC20688B1C11F99400D41200 /* OpenCCUITests.m */; };
 		AC2068A41C11F9C600D41200 /* hk2s.json in Resources */ = {isa = PBXBuildFile; fileRef = AC20689A1C11F9C600D41200 /* hk2s.json */; };
 		AC2068A51C11F9C600D41200 /* s2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = AC20689B1C11F9C600D41200 /* s2hk.json */; };
 		AC2068A61C11F9C600D41200 /* s2t.json in Resources */ = {isa = PBXBuildFile; fileRef = AC20689C1C11F9C600D41200 /* s2t.json */; };
@@ -57,23 +55,6 @@
 		DAB4D7D71E223E670094AF38 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7CA1E223E670094AF38 /* TWVariantsRevPhrases.txt */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AC20687D1C11F99400D41200 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC20685B1C11F99400D41200 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC2068621C11F99400D41200;
-			remoteInfo = OpenCC;
-		};
-		AC2068881C11F99400D41200 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC20685B1C11F99400D41200 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC2068621C11F99400D41200;
-			remoteInfo = OpenCC;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		AC2068631C11F99400D41200 /* OpenCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2068671C11F99400D41200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,12 +66,6 @@
 		AC2068721C11F99400D41200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2068751C11F99400D41200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2068771C11F99400D41200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC20687C1C11F99400D41200 /* OpenCCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC2068801C11F99400D41200 /* OpenCCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCCTests.m; sourceTree = "<group>"; };
-		AC2068821C11F99400D41200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC2068871C11F99400D41200 /* OpenCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC20688B1C11F99400D41200 /* OpenCCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCCUITests.m; sourceTree = "<group>"; };
-		AC20688D1C11F99400D41200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC20689A1C11F9C600D41200 /* hk2s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hk2s.json; sourceTree = "<group>"; };
 		AC20689B1C11F9C600D41200 /* s2hk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s2hk.json; sourceTree = "<group>"; };
 		AC20689C1C11F9C600D41200 /* s2t.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s2t.json; sourceTree = "<group>"; };
@@ -179,20 +154,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC2068791C11F99400D41200 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC2068841C11F99400D41200 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -205,8 +166,6 @@
 				DAB4D7BD1E223E670094AF38 /* dictionary */,
 				AC2068991C11F9C600D41200 /* config */,
 				AC2068651C11F99400D41200 /* OpenCC */,
-				AC20687F1C11F99400D41200 /* OpenCCTests */,
-				AC20688A1C11F99400D41200 /* OpenCCUITests */,
 				AC2068641C11F99400D41200 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -215,8 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				AC2068631C11F99400D41200 /* OpenCC.app */,
-				AC20687C1C11F99400D41200 /* OpenCCTests.xctest */,
-				AC2068871C11F99400D41200 /* OpenCCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -245,24 +202,6 @@
 				AC2068671C11F99400D41200 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AC20687F1C11F99400D41200 /* OpenCCTests */ = {
-			isa = PBXGroup;
-			children = (
-				AC2068801C11F99400D41200 /* OpenCCTests.m */,
-				AC2068821C11F99400D41200 /* Info.plist */,
-			);
-			path = OpenCCTests;
-			sourceTree = "<group>";
-		};
-		AC20688A1C11F99400D41200 /* OpenCCUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AC20688B1C11F99400D41200 /* OpenCCUITests.m */,
-				AC20688D1C11F99400D41200 /* Info.plist */,
-			);
-			path = OpenCCUITests;
 			sourceTree = "<group>";
 		};
 		AC2068991C11F9C600D41200 /* config */ = {
@@ -408,42 +347,6 @@
 			productReference = AC2068631C11F99400D41200 /* OpenCC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AC20687B1C11F99400D41200 /* OpenCCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC2068931C11F99400D41200 /* Build configuration list for PBXNativeTarget "OpenCCTests" */;
-			buildPhases = (
-				AC2068781C11F99400D41200 /* Sources */,
-				AC2068791C11F99400D41200 /* Frameworks */,
-				AC20687A1C11F99400D41200 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC20687E1C11F99400D41200 /* PBXTargetDependency */,
-			);
-			name = OpenCCTests;
-			productName = OpenCCTests;
-			productReference = AC20687C1C11F99400D41200 /* OpenCCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AC2068861C11F99400D41200 /* OpenCCUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC2068961C11F99400D41200 /* Build configuration list for PBXNativeTarget "OpenCCUITests" */;
-			buildPhases = (
-				AC2068831C11F99400D41200 /* Sources */,
-				AC2068841C11F99400D41200 /* Frameworks */,
-				AC2068851C11F99400D41200 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC2068891C11F99400D41200 /* PBXTargetDependency */,
-			);
-			name = OpenCCUITests;
-			productName = OpenCCUITests;
-			productReference = AC2068871C11F99400D41200 /* OpenCCUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -455,14 +358,6 @@
 				TargetAttributes = {
 					AC2068621C11F99400D41200 = {
 						CreatedOnToolsVersion = 7.1.1;
-					};
-					AC20687B1C11F99400D41200 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = AC2068621C11F99400D41200;
-					};
-					AC2068861C11F99400D41200 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = AC2068621C11F99400D41200;
 					};
 				};
 			};
@@ -480,8 +375,6 @@
 			projectRoot = "";
 			targets = (
 				AC2068621C11F99400D41200 /* OpenCC */,
-				AC20687B1C11F99400D41200 /* OpenCCTests */,
-				AC2068861C11F99400D41200 /* OpenCCUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -520,20 +413,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC20687A1C11F99400D41200 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC2068851C11F99400D41200 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -564,36 +443,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC2068781C11F99400D41200 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC2068811C11F99400D41200 /* OpenCCTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC2068831C11F99400D41200 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC20688C1C11F99400D41200 /* OpenCCUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AC20687E1C11F99400D41200 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC2068621C11F99400D41200 /* OpenCC */;
-			targetProxy = AC20687D1C11F99400D41200 /* PBXContainerItemProxy */;
-		};
-		AC2068891C11F99400D41200 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC2068621C11F99400D41200 /* OpenCC */;
-			targetProxy = AC2068881C11F99400D41200 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AC20686F1C11F99400D41200 /* Main.storyboard */ = {
@@ -719,54 +569,6 @@
 			};
 			name = Release;
 		};
-		AC2068941C11F99400D41200 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OpenCCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhenian.OpenCCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCC.app/OpenCC";
-			};
-			name = Debug;
-		};
-		AC2068951C11F99400D41200 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OpenCCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhenian.OpenCCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCC.app/OpenCC";
-			};
-			name = Release;
-		};
-		AC2068971C11F99400D41200 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = OpenCCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhenian.OpenCCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = OpenCC;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		AC2068981C11F99400D41200 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = OpenCCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhenian.OpenCCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = OpenCC;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -784,24 +586,6 @@
 			buildConfigurations = (
 				AC2068911C11F99400D41200 /* Debug */,
 				AC2068921C11F99400D41200 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC2068931C11F99400D41200 /* Build configuration list for PBXNativeTarget "OpenCCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC2068941C11F99400D41200 /* Debug */,
-				AC2068951C11F99400D41200 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC2068961C11F99400D41200 /* Build configuration list for PBXNativeTarget "OpenCCUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC2068971C11F99400D41200 /* Debug */,
-				AC2068981C11F99400D41200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
