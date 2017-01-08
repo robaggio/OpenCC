@@ -25,19 +25,6 @@
 		AC2068AB1C11F9C600D41200 /* t2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = AC2068A11C11F9C600D41200 /* t2tw.json */; };
 		AC2068AC1C11F9C600D41200 /* tw2s.json in Resources */ = {isa = PBXBuildFile; fileRef = AC2068A21C11F9C600D41200 /* tw2s.json */; };
 		AC2068AD1C11F9C600D41200 /* tw2sp.json in Resources */ = {isa = PBXBuildFile; fileRef = AC2068A31C11F9C600D41200 /* tw2sp.json */; };
-		AC2068BC1C11F9D100D41200 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068AF1C11F9D100D41200 /* HKVariants.txt */; };
-		AC2068BD1C11F9D100D41200 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B01C11F9D100D41200 /* HKVariantsPhrases.txt */; };
-		AC2068BE1C11F9D100D41200 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B11C11F9D100D41200 /* HKVariantsRevPhrases.txt */; };
-		AC2068BF1C11F9D100D41200 /* JPVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B21C11F9D100D41200 /* JPVariants.txt */; };
-		AC2068C01C11F9D100D41200 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B31C11F9D100D41200 /* STCharacters.txt */; };
-		AC2068C11C11F9D100D41200 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B41C11F9D100D41200 /* STPhrases.txt */; };
-		AC2068C21C11F9D100D41200 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B51C11F9D100D41200 /* TSCharacters.txt */; };
-		AC2068C31C11F9D100D41200 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B61C11F9D100D41200 /* TSPhrases.txt */; };
-		AC2068C41C11F9D100D41200 /* TWPhrasesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B71C11F9D100D41200 /* TWPhrasesIT.txt */; };
-		AC2068C51C11F9D100D41200 /* TWPhrasesName.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B81C11F9D100D41200 /* TWPhrasesName.txt */; };
-		AC2068C61C11F9D100D41200 /* TWPhrasesOther.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068B91C11F9D100D41200 /* TWPhrasesOther.txt */; };
-		AC2068C71C11F9D100D41200 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068BA1C11F9D100D41200 /* TWVariants.txt */; };
-		AC2068C81C11F9D100D41200 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC2068BB1C11F9D100D41200 /* TWVariantsRevPhrases.txt */; };
 		AC2068F41C11FA1200D41200 /* BinaryDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC2068CA1C11FA1200D41200 /* BinaryDict.cpp */; };
 		AC2068F51C11FA1200D41200 /* Config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC2068CE1C11FA1200D41200 /* Config.cpp */; };
 		AC2068F61C11FA1200D41200 /* Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC2068D01C11FA1200D41200 /* Conversion.cpp */; };
@@ -55,6 +42,19 @@
 		AC2069021C11FA1200D41200 /* UTF8StringSlice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC2068F01C11FA1200D41200 /* UTF8StringSlice.cpp */; };
 		AC2069031C11FA1200D41200 /* UTF8Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC2068F21C11FA1200D41200 /* UTF8Util.cpp */; };
 		AC2069401C11FA3400D41200 /* OpenCCService.mm in Sources */ = {isa = PBXBuildFile; fileRef = AC20693F1C11FA3400D41200 /* OpenCCService.mm */; };
+		DAB4D7CB1E223E670094AF38 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7BE1E223E670094AF38 /* HKVariants.txt */; };
+		DAB4D7CC1E223E670094AF38 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7BF1E223E670094AF38 /* HKVariantsPhrases.txt */; };
+		DAB4D7CD1E223E670094AF38 /* HKVariantsRev.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C01E223E670094AF38 /* HKVariantsRev.txt */; };
+		DAB4D7CE1E223E670094AF38 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C11E223E670094AF38 /* HKVariantsRevPhrases.txt */; };
+		DAB4D7CF1E223E670094AF38 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C21E223E670094AF38 /* STCharacters.txt */; };
+		DAB4D7D01E223E670094AF38 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C31E223E670094AF38 /* STPhrases.txt */; };
+		DAB4D7D11E223E670094AF38 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C41E223E670094AF38 /* TSCharacters.txt */; };
+		DAB4D7D21E223E670094AF38 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C51E223E670094AF38 /* TSPhrases.txt */; };
+		DAB4D7D31E223E670094AF38 /* TWPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C61E223E670094AF38 /* TWPhrases.txt */; };
+		DAB4D7D41E223E670094AF38 /* TWPhrasesRev.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C71E223E670094AF38 /* TWPhrasesRev.txt */; };
+		DAB4D7D51E223E670094AF38 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C81E223E670094AF38 /* TWVariants.txt */; };
+		DAB4D7D61E223E670094AF38 /* TWVariantsRev.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7C91E223E670094AF38 /* TWVariantsRev.txt */; };
+		DAB4D7D71E223E670094AF38 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB4D7CA1E223E670094AF38 /* TWVariantsRevPhrases.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,19 +101,6 @@
 		AC2068A11C11F9C600D41200 /* t2tw.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = t2tw.json; sourceTree = "<group>"; };
 		AC2068A21C11F9C600D41200 /* tw2s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tw2s.json; sourceTree = "<group>"; };
 		AC2068A31C11F9C600D41200 /* tw2sp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tw2sp.json; sourceTree = "<group>"; };
-		AC2068AF1C11F9D100D41200 /* HKVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariants.txt; sourceTree = "<group>"; };
-		AC2068B01C11F9D100D41200 /* HKVariantsPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsPhrases.txt; sourceTree = "<group>"; };
-		AC2068B11C11F9D100D41200 /* HKVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsRevPhrases.txt; sourceTree = "<group>"; };
-		AC2068B21C11F9D100D41200 /* JPVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JPVariants.txt; sourceTree = "<group>"; };
-		AC2068B31C11F9D100D41200 /* STCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STCharacters.txt; sourceTree = "<group>"; };
-		AC2068B41C11F9D100D41200 /* STPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STPhrases.txt; sourceTree = "<group>"; };
-		AC2068B51C11F9D100D41200 /* TSCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSCharacters.txt; sourceTree = "<group>"; };
-		AC2068B61C11F9D100D41200 /* TSPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSPhrases.txt; sourceTree = "<group>"; };
-		AC2068B71C11F9D100D41200 /* TWPhrasesIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesIT.txt; sourceTree = "<group>"; };
-		AC2068B81C11F9D100D41200 /* TWPhrasesName.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesName.txt; sourceTree = "<group>"; };
-		AC2068B91C11F9D100D41200 /* TWPhrasesOther.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesOther.txt; sourceTree = "<group>"; };
-		AC2068BA1C11F9D100D41200 /* TWVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariants.txt; sourceTree = "<group>"; };
-		AC2068BB1C11F9D100D41200 /* TWVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariantsRevPhrases.txt; sourceTree = "<group>"; };
 		AC2068CA1C11FA1200D41200 /* BinaryDict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryDict.cpp; path = ../../src/BinaryDict.cpp; sourceTree = "<group>"; };
 		AC2068CB1C11FA1200D41200 /* BinaryDict.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BinaryDict.hpp; path = ../../src/BinaryDict.hpp; sourceTree = "<group>"; };
 		AC2068CC1C11FA1200D41200 /* CmdLineOutput.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CmdLineOutput.hpp; path = ../../src/CmdLineOutput.hpp; sourceTree = "<group>"; };
@@ -169,6 +156,19 @@
 		AC20694C1C11FAEB00D41200 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
 		AC20694D1C11FAEB00D41200 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
 		AC20694E1C11FAEB00D41200 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		DAB4D7BE1E223E670094AF38 /* HKVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariants.txt; sourceTree = "<group>"; };
+		DAB4D7BF1E223E670094AF38 /* HKVariantsPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsPhrases.txt; sourceTree = "<group>"; };
+		DAB4D7C01E223E670094AF38 /* HKVariantsRev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsRev.txt; sourceTree = "<group>"; };
+		DAB4D7C11E223E670094AF38 /* HKVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsRevPhrases.txt; sourceTree = "<group>"; };
+		DAB4D7C21E223E670094AF38 /* STCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STCharacters.txt; sourceTree = "<group>"; };
+		DAB4D7C31E223E670094AF38 /* STPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STPhrases.txt; sourceTree = "<group>"; };
+		DAB4D7C41E223E670094AF38 /* TSCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSCharacters.txt; sourceTree = "<group>"; };
+		DAB4D7C51E223E670094AF38 /* TSPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSPhrases.txt; sourceTree = "<group>"; };
+		DAB4D7C61E223E670094AF38 /* TWPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrases.txt; sourceTree = "<group>"; };
+		DAB4D7C71E223E670094AF38 /* TWPhrasesRev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesRev.txt; sourceTree = "<group>"; };
+		DAB4D7C81E223E670094AF38 /* TWVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariants.txt; sourceTree = "<group>"; };
+		DAB4D7C91E223E670094AF38 /* TWVariantsRev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariantsRev.txt; sourceTree = "<group>"; };
+		DAB4D7CA1E223E670094AF38 /* TWVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariantsRevPhrases.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +202,7 @@
 				AC2069411C11FAEB00D41200 /* darts-clone */,
 				AC2069431C11FAEB00D41200 /* rapidjson-0.11 */,
 				AC2068C91C11F9D500D41200 /* src */,
-				AC2068AE1C11F9D100D41200 /* dictionary */,
+				DAB4D7BD1E223E670094AF38 /* dictionary */,
 				AC2068991C11F9C600D41200 /* config */,
 				AC2068651C11F99400D41200 /* OpenCC */,
 				AC20687F1C11F99400D41200 /* OpenCCTests */,
@@ -281,27 +281,6 @@
 			);
 			name = config;
 			path = ../config;
-			sourceTree = "<group>";
-		};
-		AC2068AE1C11F9D100D41200 /* dictionary */ = {
-			isa = PBXGroup;
-			children = (
-				AC2068AF1C11F9D100D41200 /* HKVariants.txt */,
-				AC2068B01C11F9D100D41200 /* HKVariantsPhrases.txt */,
-				AC2068B11C11F9D100D41200 /* HKVariantsRevPhrases.txt */,
-				AC2068B21C11F9D100D41200 /* JPVariants.txt */,
-				AC2068B31C11F9D100D41200 /* STCharacters.txt */,
-				AC2068B41C11F9D100D41200 /* STPhrases.txt */,
-				AC2068B51C11F9D100D41200 /* TSCharacters.txt */,
-				AC2068B61C11F9D100D41200 /* TSPhrases.txt */,
-				AC2068B71C11F9D100D41200 /* TWPhrasesIT.txt */,
-				AC2068B81C11F9D100D41200 /* TWPhrasesName.txt */,
-				AC2068B91C11F9D100D41200 /* TWPhrasesOther.txt */,
-				AC2068BA1C11F9D100D41200 /* TWVariants.txt */,
-				AC2068BB1C11F9D100D41200 /* TWVariantsRevPhrases.txt */,
-			);
-			name = dictionary;
-			path = ../../data/dictionary;
 			sourceTree = "<group>";
 		};
 		AC2068C91C11F9D500D41200 /* src */ = {
@@ -388,6 +367,27 @@
 			path = internal;
 			sourceTree = "<group>";
 		};
+		DAB4D7BD1E223E670094AF38 /* dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				DAB4D7BE1E223E670094AF38 /* HKVariants.txt */,
+				DAB4D7BF1E223E670094AF38 /* HKVariantsPhrases.txt */,
+				DAB4D7C01E223E670094AF38 /* HKVariantsRev.txt */,
+				DAB4D7C11E223E670094AF38 /* HKVariantsRevPhrases.txt */,
+				DAB4D7C21E223E670094AF38 /* STCharacters.txt */,
+				DAB4D7C31E223E670094AF38 /* STPhrases.txt */,
+				DAB4D7C41E223E670094AF38 /* TSCharacters.txt */,
+				DAB4D7C51E223E670094AF38 /* TSPhrases.txt */,
+				DAB4D7C61E223E670094AF38 /* TWPhrases.txt */,
+				DAB4D7C71E223E670094AF38 /* TWPhrasesRev.txt */,
+				DAB4D7C81E223E670094AF38 /* TWVariants.txt */,
+				DAB4D7C91E223E670094AF38 /* TWVariantsRev.txt */,
+				DAB4D7CA1E223E670094AF38 /* TWVariantsRevPhrases.txt */,
+			);
+			name = dictionary;
+			path = ../dictionary;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -450,7 +450,7 @@
 		AC20685B1C11F99400D41200 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = zhenian;
 				TargetAttributes = {
 					AC2068621C11F99400D41200 = {
@@ -494,29 +494,29 @@
 				AC2068AB1C11F9C600D41200 /* t2tw.json in Resources */,
 				AC2068761C11F99400D41200 /* LaunchScreen.storyboard in Resources */,
 				AC2068A41C11F9C600D41200 /* hk2s.json in Resources */,
-				AC2068C11C11F9D100D41200 /* STPhrases.txt in Resources */,
-				AC2068BD1C11F9D100D41200 /* HKVariantsPhrases.txt in Resources */,
-				AC2068C41C11F9D100D41200 /* TWPhrasesIT.txt in Resources */,
-				AC2068C21C11F9D100D41200 /* TSCharacters.txt in Resources */,
-				AC2068BE1C11F9D100D41200 /* HKVariantsRevPhrases.txt in Resources */,
-				AC2068BC1C11F9D100D41200 /* HKVariants.txt in Resources */,
-				AC2068BF1C11F9D100D41200 /* JPVariants.txt in Resources */,
+				DAB4D7D01E223E670094AF38 /* STPhrases.txt in Resources */,
+				DAB4D7CC1E223E670094AF38 /* HKVariantsPhrases.txt in Resources */,
+				DAB4D7D11E223E670094AF38 /* TSCharacters.txt in Resources */,
+				DAB4D7CB1E223E670094AF38 /* HKVariants.txt in Resources */,
 				AC2068A81C11F9C600D41200 /* s2twp.json in Resources */,
-				AC2068C61C11F9D100D41200 /* TWPhrasesOther.txt in Resources */,
+				DAB4D7D31E223E670094AF38 /* TWPhrases.txt in Resources */,
+				DAB4D7D61E223E670094AF38 /* TWVariantsRev.txt in Resources */,
 				AC2068AD1C11F9C600D41200 /* tw2sp.json in Resources */,
-				AC2068C01C11F9D100D41200 /* STCharacters.txt in Resources */,
+				DAB4D7CD1E223E670094AF38 /* HKVariantsRev.txt in Resources */,
 				AC2068AA1C11F9C600D41200 /* t2s.json in Resources */,
+				DAB4D7CF1E223E670094AF38 /* STCharacters.txt in Resources */,
 				AC2068AC1C11F9C600D41200 /* tw2s.json in Resources */,
 				AC2068A51C11F9C600D41200 /* s2hk.json in Resources */,
-				AC2068C31C11F9D100D41200 /* TSPhrases.txt in Resources */,
-				AC2068C81C11F9D100D41200 /* TWVariantsRevPhrases.txt in Resources */,
-				AC2068C51C11F9D100D41200 /* TWPhrasesName.txt in Resources */,
 				AC2068A91C11F9C600D41200 /* t2hk.json in Resources */,
+				DAB4D7D21E223E670094AF38 /* TSPhrases.txt in Resources */,
+				DAB4D7D71E223E670094AF38 /* TWVariantsRevPhrases.txt in Resources */,
 				AC2068731C11F99400D41200 /* Assets.xcassets in Resources */,
 				AC2068711C11F99400D41200 /* Main.storyboard in Resources */,
+				DAB4D7D41E223E670094AF38 /* TWPhrasesRev.txt in Resources */,
+				DAB4D7CE1E223E670094AF38 /* HKVariantsRevPhrases.txt in Resources */,
 				AC2068A71C11F9C600D41200 /* s2tw.json in Resources */,
-				AC2068C71C11F9D100D41200 /* TWVariants.txt in Resources */,
 				AC2068A61C11F9C600D41200 /* s2t.json in Resources */,
+				DAB4D7D51E223E670094AF38 /* TWVariants.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
