@@ -1,7 +1,10 @@
 # Open Chinese Convert 開放中文轉換
 
-[ ![Download](https://api.bintray.com/packages/byvoid/opencc/OpenCC/images/download.svg) ](https://bintray.com/byvoid/opencc/OpenCC/_latestVersion)
-[![Build Status](https://travis-ci.org/BYVoid/OpenCC.svg?branch=master)](https://travis-ci.org/BYVoid/OpenCC)
+## About This Fork 分支说明
+
+This OpenCC fork is to add support for iOS platform, please use CocoaPods to integrate into your project.
+
+这个Fork用来给OpenCC添加支持iOS支持，请使用CocoaPods集成到iOS项目中，使用方法参考OpenCCService.h。
 
 ## Introduction 介紹
 
